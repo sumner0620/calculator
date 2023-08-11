@@ -1,0 +1,44 @@
+<!-- make a standard HTML5 page skeleton -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AdBlock Calculator App - Doug Sumner</title>
+</head>
+<body>
+    <section id="calculator">
+        <div class="screen">0</div>
+        <div class="keys">
+            <div class="keys__top">
+                <button class="key key__clear" data-operation="clear">AC</button>
+                <button class="key key__expo" data-operation="exponentiate">EXP</button>
+            </div>
+            <div class="keys__bottom">
+                <div class="keys_numbers">
+                    <button class="key key__7" data-value="7">7</button>
+                    <button class="key key__8" data-value="8">8</button>
+                    <button class="key key__9" data-value="9">9</button>
+                    <button class="key key__4" data-value="4">4</button>
+                    <button class="key key__5" data-value="5">5</button>
+                    <button class="key key__6" data-value="6">6</button>
+                    <button class="key key__1" data-value="1">1</button>
+                    <button class="key key__2" data-value="2">2</button>
+                    <button class="key key__3" data-value="3">3</button>
+                    <button class="key"></button>
+                    <button class="key key__0" data-value="0">0</button>
+                    <button class="key key__decimal" data-value=".">.</button>
+                </div>
+                <div class="keys_operations">
+                    <button class="key key__divide" data-operation="divide">÷</button>
+                    <button class="key key__multiply" data-operation="multiply">×</button>
+                    <button class="key key__subtract" data-operation="subtract">-</button>
+                    <button class="key key__add" data-operation="add">+</button>
+                    <button class="key key__equals" data-operation="equals">=</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+</html>
